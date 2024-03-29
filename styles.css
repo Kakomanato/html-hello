@@ -1,0 +1,48 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin:auto;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    
+}
+
+a {
+    font-weight:bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+p {
+    padding: 7px;
+}
+
+i {
+    padding: 5px 5px 0px 5px;
+    margin: 0;
+    font-size: 200%;
+}
+
+.post{
+    width: 50%;
+    margin:auto;
+    background-color: white;
+}
+
+
+.post-header, .header, .post-icons{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.options{
+float: right;
+}
